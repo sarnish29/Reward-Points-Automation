@@ -1,0 +1,33 @@
+.container8 {
+  flex: 1;
+  background-color: Skyblue;  padding: 50px;
+  padding: 50px;
+  margin-left: 16%;
+  margin-top: 5%;
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.redeemButton {
+  padding: 83px 80px; 
+  background-color: #c32408; 
+  border: none; 
+  color: #fff; 
+  font-size: 20px; 
+  font-weight: bold; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease; 
+}
+
+.redeemButton:hover {
+  background-color: #e5533d; 
+}

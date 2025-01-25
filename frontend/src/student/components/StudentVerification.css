@@ -1,0 +1,64 @@
+.center-page1 {
+  background-color: skyblue; 
+  display: flex;
+  align-items: center;
+  height: 58vh; /* Full viewport height */
+  padding: 150px;
+  width: 70%;
+  margin-left: 200px;
+  margin-right: 60px;
+  flex-direction: column;
+}
+
+
+.form-container1 {
+  background-color: #f0f8ff; /* Light blue background for the form */
+  padding: 40px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+  width: 900px;
+  height: 250%; /* Fixed width for a compact look */
+  transition: box-shadow 0.3s; /* Only transition the shadow */
+}
+
+.form-container1:hover {
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover, no movement */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px; /* Slightly bigger font */
+  font-weight: bold;
+  color: #333; /* Darker label color for better readability */
+}
+
+.form-group input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px;
+  border-radius: 8px; /* Rounded inputs */
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 8px; /* Space between label and input */
+}
+
+.submit-btn {
+  background-color: #333; /* Dark button */
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase; /* Uppercase text */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.submit-btn:hover {
+  background-color: #555; /* Lighter shade on hover */
+}
+

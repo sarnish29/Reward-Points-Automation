@@ -1,0 +1,63 @@
+.redemption-details-page {
+  padding: 150px;
+  background-color: skyblue; 
+  width: 70%;
+  height: 60vh;
+  margin-left: 200px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-with-box {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.box-container {
+  margin-left: 10px; /* Adjust or remove this margin to control spacing */
+  padding: 0 10px;
+  width: auto;
+  height: 50px;
+  background-color: #495057;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.marks-table-container {
+  margin-top: 20px;
+}
+
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.marks-table th,
+.marks-table td {
+  padding: 38px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.marks-table th {
+  background-color: #495057;
+  color: white;
+  font-weight: bold;
+}
+
+.marks-table td {
+  background-color: #bfe8f9;
+}
+
+.total-marks {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+/* Container around the table */
+.table-container6 {
+  flex: 1;
+  background-color: skyblue;  padding: 50px;
+  padding: 50px;
+  margin-left: 16%;
+  margin-top: 5%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  }
+  
+  /* Styling the table */
+  .custom-table {
+    width: 100%;
+    background-color: #D3D3D3;
+    border-collapse: collapse; /* Ensures no space between borders */
+    border: 1px solid black; /* Outer border for the table */
+  }
+  
+  /* Styling the table headers */
+  .custom-table th {
+    padding: 10px;
+    text-align: center; /* Horizontally centers the text */
+    vertical-align: middle; /* Vertically centers the text */
+    border: 1px solid black; /* Border between header columns */
+  }
+  
+  /* Styling the table rows */
+  .custom-table td {
+    padding: 10px;
+    text-align: center; /* Horizontally centers the text */
+    vertical-align: middle; /* Vertically centers the text */
+    border: 1px solid black; /* Border between table cells */
+  }
+  
+  /* Styling the Edit button */
+  .custom-table button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling the input field when editing */
+  .custom-table input {
+    padding: 5px;
+    width: 80px;
+    text-align: center; /* Center the text in the input */
+  }
+  
+  
