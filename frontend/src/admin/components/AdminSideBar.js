@@ -1,20 +1,15 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './AdminSideBar.css'; // Include CSS for styling
 
 const AdminSideBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const navigate = useNavigate(); // Hook to handle navigation
 
   // Function to toggle dropdown visibility
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown); // Toggle the dropdown visibility
   };
 
-  // Function to handle Redemption Process navigation
-  const handleRedemptionNavigation = () => {
-    navigate('/redemption-process'); // Navigate to Redemption Process page
-  };
 
   return (
     <div className="admin-sidebar">
